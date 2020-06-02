@@ -1,0 +1,41 @@
+﻿  Lab03.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(1108): error C2064: term does not evaluate to a function taking 2 arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(1107): note: see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,TreeWrapper&,_Ty&>(TreeWrapper&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=TreeWrapper,
+              _Ty=TreeWrapper,
+              _Ty1=TreeWrapper &,
+              _Ty2=TreeWrapper &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(2960): note: see reference to function template instantiation 'void std::_Push_heap_by_index<TreeWrapper*,TreeWrapper,_Fn>(_RanIt,int,int,_Ty &&,_Pr)' being compiled
+          with
+          [
+              _Fn=TreeWrapper,
+              _RanIt=TreeWrapper *,
+              _Ty=TreeWrapper,
+              _Pr=TreeWrapper
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\queue(355): note: see reference to function template instantiation 'void std::push_heap<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _Ty=TreeWrapper,
+              _Pr=TreeWrapper,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<TreeWrapper>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\queue(353): note: while compiling class template member function 'void std::priority_queue<TreeWrapper,std::vector<TreeWrapper,std::allocator<_Ty>>,TreeWrapper>::push(TreeWrapper &&)'
+          with
+          [
+              _Ty=TreeWrapper
+          ]
+  d:\student data\onedrive - university of wisconsin-stout\data structures\data structures lab 3\lab03\lab03\lab03.cpp(88): note: see reference to function template instantiation 'void std::priority_queue<TreeWrapper,std::vector<TreeWrapper,std::allocator<_Ty>>,TreeWrapper>::push(TreeWrapper &&)' being compiled
+          with
+          [
+              _Ty=TreeWrapper
+          ]
+  d:\student data\onedrive - university of wisconsin-stout\data structures\data structures lab 3\lab03\lab03\lab03.cpp(80): note: see reference to class template instantiation 'std::priority_queue<TreeWrapper,std::vector<TreeWrapper,std::allocator<_Ty>>,TreeWrapper>' being compiled
+          with
+          [
+              _Ty=TreeWrapper
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(1108): error C2056: illegal expression
